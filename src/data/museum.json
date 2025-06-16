@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Monalisa",
+    "description": "The Mona Lisa painting is one of the most emblematic portraits in the history of art, where is located at the Louvre. Painted by Leonardo da Vinci in the 16th century, it joined the collections of the court of France before being added to the works on display at the Louvre Museum.",
+    "img": "src/assets/monalisa.jpg"
+  },
+  {
+    "title": "The Girl With The Pearl Earring",
+    "description": "he truth is that despite frenzied speculation (was she the artist's daughter, or perhaps his mistress?), we will probably never know the identity of the model for Vermeer's Girl – if there even was one. Vermeer, himself, is a shadowy figure in the history of art.",
+    "img": "src/assets/girlwithearing.jpg"
+  },
+  {
+    "title": "The Scream",
+    "description": "From the environment to the emotion, The Scream is intimately tied to an experience Munch had in 1892. During a walk along a path outside Kristiania, which is now known as Oslo, Norway, the artist suddenly felt excruciating pain in his chest just as the sun began to set.",
+    "img": "src/assets/thescream.jpg"
+  }
+]
