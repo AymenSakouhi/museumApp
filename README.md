@@ -27,3 +27,7 @@ Preview the production build locally:
 ```bash
 pnpm preview
 ```
+
+Hall of fame:
+FAHAD.KPK suggested how test title work
+Applauser for his data-testid infos

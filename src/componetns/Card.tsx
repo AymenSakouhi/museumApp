@@ -37,6 +37,7 @@ const Card = ({ painting }: CardProps) => {
     <div className="grid xs:grid-cols-1 md:grid-cols-2 gap-4 my-4">
       <div className="border-2 rounded-md overflow-hidden">
         <img
+          data-testid="image-card"
           ref={imgRef}
           src={painting.url}
           alt={painting.title}
@@ -46,8 +47,12 @@ const Card = ({ painting }: CardProps) => {
         />
       </div>
       <div className="border-2 rounded-md overflow-hidden p-4 text-2xl flex flex-col justify-center items-center">
-        <span className="mb-4 text-4xl">{painting.title}</span>
-        <p className="text-justify">{painting.description}</p>
+        <span className="mb-4 text-4xl" data-testid="painting-title">
+          {painting.title}
+        </span>
+        <p className="text-justify" data-testid="painting-description">
+          {painting.description}
+        </p>
       </div>
     </div>
   );
